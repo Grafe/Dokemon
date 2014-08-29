@@ -3,8 +3,10 @@ package com.dokemon.dokemon;
 import org.newdawn.slick.AppGameContainer;
 import org.newdawn.slick.SlickException;
 
+import com.dokemon.dokemon.net.NetClient;
+
 public class Main {
-	private static Dokemon dokemon;
+	public static Dokemon dokemon;
 	private static AppGameContainer appGameContainer;
 	
 	public static void main(String args[]) {
